@@ -2,6 +2,9 @@ import { bares } from "@/data/bares";
 import BarDetalhesClient from "./BarDetalhesClient";
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
+
 /* Tipagem dos parâmetros da rota */
 type Props = {
   params: { id: string };
